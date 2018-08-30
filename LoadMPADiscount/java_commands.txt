@@ -1,0 +1,19 @@
+
+javac -classpath ".;C:\Program Files\Java\jdk1.8.0_172\lib;opencsv-2.3.jar" ProcessFile.java
+
+java -classpath ".;C:\Program Files\Java\jdk1.8.0_172\lib;opencsv-2.3.jar" ProcessFile
+
+
+
+javac -classpath ".;Siebel.jar;SiebelJI_enu.jar;" DataBeanDemo.java
+
+java -classpath ".;Siebel.jar;SiebelJI_enu.jar;" DataBeanDemo
+
+
+
+javac -classpath ".;Siebel.jar;SiebelJI_enu.jar;opencsv-2.3.jar;ProcessFile.class" LoadPartsDiscountBean.java
+
+java -classpath ".;Siebel.jar;SiebelJI_enu.jar;opencsv-2.3.jar;ProcessFile.class" LoadPartsDiscountBean
+
+
+
