@@ -31,7 +31,7 @@ public class LoadPartsDiscountBean
          // log in to the Siebel Server
          // SiebelServerhost = the name or IP address of your Siebel Server
          // SCBPort = listening port number for the SCBroker component (default 2321)
-         m_dataBean.login("Siebel://de08w2145:2321/DEV2_ENT/SFSObjMgrAdmin_enu", "SADMIN", "siebadm15tr", "enu");
+         m_dataBean.login("Siebel://de08w2145:2321/DEV2_ENT/SFSObjMgrAdmin_enu", "username", "password", "enu");
 
          // get the business object
          m_busObject = m_dataBean.getBusObject("HW MPA System Agreements");
